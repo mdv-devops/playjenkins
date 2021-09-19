@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/mdv-terraform-modules/playjenkins.git', branch:'master'
+        git url:'https://github.com/mdv-devops/playjenkins.git', branch:'master'
       }
     }
 
